@@ -289,7 +289,7 @@ margin: 0 1.5em;
 
 /* FOR REPONSIVENESS */
 
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
 
 .fitem3, .fitem4{
   display: none;
@@ -304,6 +304,9 @@ margin: 0 1.5em;
 .fitem2{
   padding: 0;
 }
+.fitem2 a{
+  font-size: 0.5em;
+}
 
 
 /* SECTON TWO - INTRODUCTION */
@@ -316,11 +319,11 @@ margin: 0 1.5em;
 }
 .head{
   font-size: 1rem;
-  margin-left: 10em;
+  margin-left: 15em;
 }
 .intro{
   font-size: 0.5rem;
-  margin-left: 20em;
+  margin-left: 30em;
 }
 .shopButton{
   border: none;
@@ -331,7 +334,7 @@ margin: 0 1.5em;
   font-weight: bold;
   color: #fff;
   transition: transform 0.5s;
-  margin-left: 15em;
+  margin-left: 25em;
 }
 .under-button{
 display: none;
