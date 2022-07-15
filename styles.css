@@ -1,0 +1,397 @@
+body{
+  margin: 0;
+  padding: 0;
+font-family: 'Montserrat', sans-serif;
+color:#222831;
+}
+
+/* FIRST SECTION */
+
+.company-name{
+  margin-top: 0;
+}
+.company-name .envanto{
+  color: #fff;
+}
+.company-name .market{
+  color: #9EB23B;
+}
+.company{
+  background-color: #535204;
+  height: 7vh;
+}
+
+.marquee{
+  background-color: #222831;
+}
+.mar{
+  width: 70%;
+  color: #fff;
+}
+
+/* NAVBAR SECTION */
+
+.fcontainer{
+  display: flex;
+  justify-content: space-around;
+  height: 8vh;
+  align-items: center;
+}
+
+.fitem2{
+  display: flex;
+  list-style: none;
+}
+
+.vertical{
+  display: inline;
+  border-left: 1px solid #222831;
+  margin-left: 8px;
+}
+
+.navbar li a{
+  padding: 0 2em;
+  text-decoration: none;
+  font-weight:500;
+  color: #222831;
+}
+
+.nav-icons i{
+  padding: 0 .5em;
+  color: #222831;
+}
+
+.navbar li a:hover, .nav-icons i:hover {
+  color: #00ADB5;
+}
+
+select{
+  border: none;
+}
+
+.navbar-button{
+  display:none;
+}
+
+/* SECTION TWO-HOME SECTION */
+
+.heading{
+  padding: 10em 0;
+  background-image: url("./images/shopping-cart.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.head{
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+ .collection{
+   color: #00ADB5;
+ }
+
+ .intro{
+   color: #7F8487;
+ }
+
+.shopButton{
+  border: none;
+  background-color: #00ADB5;
+  height: 2em;
+  width:5em;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.5s;
+}
+.under-button{
+  margin-top: 4px;
+  height: 0.1em;
+  width:5em;
+  background-color: #00ADB5;
+}
+
+.shopButton:hover{
+  transform: scale(1.2);
+}
+
+
+/* SECTION-THREE : CATEGORY SECTION */
+
+/* grid container  */
+.gcontainer{
+  padding: 4em 0 2em ;
+  display:grid;
+grid-template-columns: repeat(6, 1fr);
+}
+.gitem{
+  display: flex;
+align-items:center;
+justify-content: center;
+
+}
+ .inner-gcontainer{
+   display: grid;
+
+}
+.inner-gitem{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 1em 0;
+
+}
+
+.inner-gitem i{
+  color: #00ADB5;
+  background-color: #9DD6DF;
+  height: 30px;
+  width:30px;
+  border-radius: 50%;
+}
+
+.inner-gitem button{
+  color: #7F8487;
+  border: 1px solid #7F8487;
+  height: 3em;
+  width:15em;
+  background-color: #EEEEEE;
+  font-weight: lighter;
+
+}
+
+/* FLEXBOX FOR THE OFFERS  */
+
+.fcontainer2{
+  display: flex;
+  justify-content:center;
+
+}
+
+.fitems{
+  justify-content: center;
+  align-items: center;
+  margin: 0 2em;
+}
+.discount h3{
+  margin-left: 5em;
+margin-bottom: 0;
+}
+
+.pink, .yellow, .orange, .blue{
+  height:1em;
+  width:20em;
+}
+.pink{
+  background-color: #FFC7C7;
+}
+.yellow{
+background-color: #FFE7BF;
+}
+.orange{
+  background-color: #FFD3B4;
+}
+.blue{
+  background-color: #DEFCF9;
+}
+.fitems p{
+  font-size: 0.6rem;
+  color: #7F8487;
+  font-size: bold;
+  margin-left: 9em;
+}
+
+/* QUOTE */
+
+.quote{
+  padding: 4em 0 0;
+  text-align: center;
+}
+.quote p{
+  color: #73777B;
+  font-family: 'Cormorant', serif;
+  font-size: 1.5rem;
+}
+
+/* LAST SECTION */
+
+.enclouser{
+  padding: 4em 0 0;
+  text-align: center;
+}
+
+.enclouser h2{
+  color: #222831;
+  margin-bottom: 0.2em;
+}
+.enclouser hr{
+  height: 0.2em;
+  width:7em;
+  background-color: #00ADB5;
+}
+.enclouser p{
+  color: #73777B;
+  font-family: 'Cormorant', serif;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+/* FILTERS */
+
+.filter a{
+  padding: 0 1em;
+  text-decoration: none;
+  font-weight:500;
+  color: #222831;
+}
+
+.filter a:hover, .filter a:active{
+  color: #00ADB5;
+  text-decoration: underline ;
+}
+.filter i{
+  color: #00ADB5;
+}
+.fitemss{
+  align-items: center;
+margin: 0 1.5em;
+}
+
+/* CARDS */
+
+.card {
+  color: #73777B;
+  font-size: 0.8em;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0);
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.description{
+  font-weight: 500;
+}
+
+.container p span{
+  font-weight: bold;
+}
+.pre-price{
+  color: #00ADB5;
+  text-decoration: line-through;
+  margin-left: 0.5em;
+}
+
+
+
+/* FOR REPONSIVENESS */
+
+@media (max-width: 980px) {
+
+.fitem3, .fitem4{
+  display: none;
+}
+.fcontainer{
+  flex-direction: column;
+  align-items: center;
+}
+.fitem1{
+  padding-top: 2em;
+}
+.fitem2{
+  padding: 0;
+}
+
+
+/* SECTON TWO - INTRODUCTION */
+.heading{
+  padding: 5em 0;
+  background-image: url("./images/shopping-cart.jpg");
+  background-size: cover;
+  text-align: center;
+
+}
+.head{
+  font-size: 1rem;
+  margin-left: 10em;
+}
+.intro{
+  font-size: 0.5rem;
+  margin-left: 20em;
+}
+.shopButton{
+  border: none;
+  background-color: #00ADB5;
+  height: 2em;
+  width:4em;
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.5s;
+  margin-left: 15em;
+}
+.under-button{
+display: none;
+}
+/* SECTION THREE-GRID */
+
+.gcontainer{
+  padding: 4em 0 2em ;
+  display:grid;
+grid-template-columns: repeat(2, 1fr);
+}
+.gitem{
+  display: flex;
+align-items:center;
+justify-content: center;
+
+}
+ .inner-gcontainer{
+   display: grid;
+
+}
+.inner-gitem{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 1em 0;
+
+}
+
+.fitems{
+  margin-left: 5em;
+}
+/* SECTION THREE: FLEXBOX */
+.discount h3{
+  font-size: 1em;
+  margin-left: 0;
+margin-bottom: 0;
+}
+
+.pink, .yellow, .orange, .blue{
+  height:1em;
+  width:6.5em;
+}
+.fitems p{
+  font-size: 0.6rem;
+  color: #7F8487;
+  font-size: bold;
+  margin-left: 0;
+}
+
+/* SECTION FOUR- TURN TO GRID */
+.fcontainer2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.fitemss{
+  display: grid;
+  justify-content: center;
+  margin: 0;
+}
+
+
+}
